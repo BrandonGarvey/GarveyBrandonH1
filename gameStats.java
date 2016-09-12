@@ -14,7 +14,41 @@ public class gameStats {
     int getDefense; //armor defense
     int getNutrition; //food nutrition
     int getQuantity;  //amount of food
-
-  }
     
-
+  }
+  
+  public class Item {
+    
+    // Default constructor
+    public Item() {
+    }
+    
+    
+    /**
+     * @return
+     */
+    public String getName() {
+      // TODO implement here
+      return "";
+    }
+    
+    /**
+     * @return
+     */
+    public int getWeight() {
+      // TODO implement here
+      return 0;
+    }
+    
+    /**
+     * @param name 
+     * @param weight 
+     * @return
+     */
+    public String examine(String name, int weight) {
+      // TODO implement here
+      return ("name " + " weight");
+    }
+    
+  }
+}
